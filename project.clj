@@ -1,6 +1,7 @@
 (defproject cascalog-workshop "1.0.0"
   :source-path "src/clj"
   :aot :all
+  :repositories {"conjars" "http://conjars.org/repo/"}
   :dependencies [[org.clojure/clojure "1.2.0"]
                  [org.clojure/clojure-contrib "1.2.0"]
 		 [org.danlarkin/clojure-json "1.1-SNAPSHOT"]
